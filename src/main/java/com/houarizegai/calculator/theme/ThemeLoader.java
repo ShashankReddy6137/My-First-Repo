@@ -11,7 +11,7 @@ import java.util.Collections;
 import java.util.Map;
 
 public class ThemeLoader {
-
+	System.out.println("This is theme loader");
     private ThemeLoader() {
         throw new AssertionError("Constructor is not allowed");
     }
