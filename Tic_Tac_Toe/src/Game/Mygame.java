@@ -15,6 +15,7 @@ import javax.swing.SwingConstants;
 
 public class Mygame extends JFrame implements ActionListener {
 	JLabel heading, clock;
+	System.out.println("hello java ");
 	Font f = new Font("", Font.BOLD, 40);
 	JPanel mypanel;
 	JButton[] btns = new JButton[9];
